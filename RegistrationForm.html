@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <Form>
+        <h4>First Name* <input type="text" name="First_Name"></h4>
+        <h4>Last Name* <input type="text" name="Last_Name"></h4>
+        <h4>Email Address* <input type="text" name="Last_Name"></h4>
+        <h4>Password*  <input type="password"></h4>
+        <h4>Confirm Password*  <input type="password"></h4>
+        <h4>Birthday*  <input type="date" name="dob"></h4>
+        
+        <h4>Gender Identity</h4>
+        <input type="radio" name="gender" value="Female" id="Female">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" value="Male" id="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="I prefer not to answer" id="I prefer not to answer">
+        <label for="I prefer not to answer">I prefer not to answer</label>
+
+        <h4>Short description about yourself!</h4>
+        <textarea name="Short description about yourself" cols="48" rows="12"></textarea>
+
+        <h4>Favorite Language</h4>
+        <select name="Favorite Language">
+            <option>HTML</option>
+            <option>Python</option>
+            <option>Swift</option>
+            <option>Other</option>
+        </select>
+
+        <h4>
+            <input type="checkbox" name="Yes" id="Yes">
+        <label for="Yes">Yes, I would like to receive periodic email updates</label>
+        </h4>
+
+        <div>
+            <input type="submit" value="create an account">
+        </div>     
+    
+
+    </Form>
+    
+</body>
+</html>
